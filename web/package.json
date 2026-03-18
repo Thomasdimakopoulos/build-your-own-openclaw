@@ -5,9 +5,9 @@
   "type": "module",
   "scripts": {
     "copy-assets": "node scripts/copy-step-assets.js",
-    "dev": "npm run copy-assets && next dev",
-    "build": "npm run copy-assets && next build",
-    "start": "next start",
+    "dev": "node init && npm run copy-assets && next dev",
+    "build": "node init && npm run copy-assets && next build",
+    "start": "node init && next start",
     "lint": "eslint"
   },
   "dependencies": {

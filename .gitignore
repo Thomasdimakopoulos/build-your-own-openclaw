@@ -26,7 +26,6 @@ ENV/
 .venv
 
 # IDE
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -58,3 +57,5 @@ generate_diff.sh
 
 # build time populate
 web/public/steps
+config.bat
+node_modules
