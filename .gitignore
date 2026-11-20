@@ -57,5 +57,4 @@ generate_diff.sh
 
 # build time populate
 web/public/steps
-config.bat
 node_modules
